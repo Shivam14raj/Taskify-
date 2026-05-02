@@ -11,7 +11,6 @@ A full-stack **MERN (MongoDB, Express, React, Node.js)** application designed to
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Installation & Setup](#installation--setup)
-- [API Endpoints](#api-endpoints)
 - [Key Learnings](#key-learnings)
 - [Future Improvements](#future-improvements)
 - [Author](#author)
@@ -44,31 +43,28 @@ Taskify is a productivity-focused web application that allows users to:
 ## 🛠️ Tech Stack
 
 ### Frontend
-
 - React.js
 - Axios
 - CSS
 
 ### Backend
-
 - Node.js
 - Express.js
 - JWT Authentication
 
 ### Database
-
 - MongoDB
 - Mongoose
- 
---- 
 
-## 📂 Project Structure 
+---
+
+## 📂 Project Structure
 Taskify/
 │
 ├── Client/ # React Frontend
 ├── Server/ # Node.js Backend
 ├── README.md
-└── .gitignore 
+└── .gitignore
 
 
 ---
@@ -77,11 +73,10 @@ Taskify/
 
 ### 1. Clone Repository
 
-~~~bash
+```bash
 git clone https://github.com/your-username/taskify.git
 cd taskify
 
-Backend Setup
 cd Server
 npm install
 
@@ -93,28 +88,8 @@ JWT_SECRET_KEY=your_secret_key
 Run backend:
 npm run dev
 
-Frontend Setup
+3. Frontend Setup
 cd ../Client
 npm install
 npm run dev
 
-
-🧠 Key Learnings
-Full-stack MERN development
-REST API integration
-JWT authentication
-React state management
-Reusable UI components
-📈 Future Improvements
-Search and sorting
-Dark mode
-Notifications
-Task analytics
-Team collaboration
-🧑‍💻 Author
-
-Shivam Raj
-
-⭐ Suppor
-
-## 📂 Project Structure
