@@ -82,13 +82,9 @@ cd taskify
 git clone https://github.com/your-username/taskify.git
 cd taskify 
 
-
-
-
-
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 Taskify/
 │
 ├── Client/ # React Frontend
@@ -120,9 +116,10 @@ JWT_SECRET_KEY=your_secret_key
 Run backend:
 
 npm run dev
-
 3. Frontend Setup
 cd ../Client
 npm install
 npm run dev
+
+
  
