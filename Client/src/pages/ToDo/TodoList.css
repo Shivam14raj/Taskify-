@@ -1,0 +1,46 @@
+.workspace-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.workspace-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.workspace-header h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.filter-buttons button {
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+
+  background: #ffffff;
+  color: #334155;
+
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.filter-buttons button:hover {
+  background: #f8fafc;
+}
+
+/* Optional active feel (simple) */
+.filter-buttons button:focus {
+  background: #0f172a;
+  color: white;
+}

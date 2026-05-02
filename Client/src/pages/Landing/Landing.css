@@ -1,0 +1,120 @@
+/* ===== BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* ===== HERO ===== */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+
+  /* clean soft gradient */
+  background: radial-gradient(circle at 20% 30%, #e0e7ff 0%, transparent 40%),
+              radial-gradient(circle at 80% 70%, #f0fdf4 0%, transparent 40%),
+              #f8fafc;
+}
+
+/* ===== CONTENT CARD ===== */
+.into-text {
+  max-width: 640px;
+  width: 100%;
+  text-align: center;
+  padding: 3rem 2.5rem;
+
+  /* subtle glass (not overdone) */
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+
+  /* soft professional shadow */
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.06),
+    0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+/* ===== HEADLINE ===== */
+.tagline {
+  background: linear-gradient(90deg, #0f172a, #334155);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== SUBTEXT ===== */
+.into-text p {
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* ===== BUTTONS CONTAINER FEEL ===== */
+.button {
+  display: inline-block;
+  margin-top: 1.8rem;
+  margin-right: 0.6rem;
+  padding: 0.65rem 1.4rem;
+
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+
+  border-radius: 10px;
+  transition: all 0.2s ease;
+
+  /* default subtle style */
+  background: white;
+  color: #0f172a;
+  border: 1px solid #e2e8f0;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+/* ===== PRIMARY BUTTON ===== */
+.red {
+  background: #0f172a;
+  color: white;
+  border: none;
+}
+
+.red:hover {
+  background: #020617;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(15, 23, 42, 0.2);
+}
+
+/* ===== SECONDARY BUTTON ===== */
+.green {
+  background: transparent;
+  color: #0f172a;
+}
+
+.green:hover {
+  background: #f1f5f9;
+  transform: translateY(-1px);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .into-text {
+    padding: 2rem 1.5rem;
+  }
+
+  .tagline {
+    font-size: 1.9rem;
+  }
+
+  .button {
+    display: block;
+    width: 100%;
+    margin: 1rem 0 0;
+  }
+}

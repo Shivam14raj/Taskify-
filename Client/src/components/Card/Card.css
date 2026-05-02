@@ -1,0 +1,130 @@
+.cards-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.2rem;
+}
+
+.task-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 1.2rem;
+
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+  transition: 0.2s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.task-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.task-card-top h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f172a;
+  line-height: 1.4;
+}
+
+.task-description {
+  margin-top: 0.75rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: #64748b;
+}
+
+.priority {
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.priority.low {
+  background: green;
+  color: #fff;
+}
+
+.priority.medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.priority.high {
+  background: red;
+  color: #fff;
+}
+
+.task-info {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.task-info span {
+  font-size: 0.78rem;
+  color: #475569;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  text-transform: capitalize;
+}
+
+.due-date {
+  margin-top: 0.9rem;
+  font-size: 0.82rem;
+  color: #64748b;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.6rem;
+
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+
+  font-size: 0.85rem;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.edit-btn {
+  background: rgb(254, 254, 67);
+  color: #0f172a;
+  border: 1px solid #e2e8f0;
+}
+
+.edit-btn:hover {
+  background: #f8fafc;
+}
+
+.delete-btn {
+  background: #fff1f2;
+  color: #f70441;
+  border: 1px solid #fecdd3;
+}
+
+.delete-btn:hover {
+  background: #ffe4e6;
+}

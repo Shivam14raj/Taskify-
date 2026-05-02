@@ -1,0 +1,102 @@
+.home-page {
+  min-height: calc(100vh - 64px);
+  background: #f8fafc;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* ===== HEADER ===== */
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+
+  margin-bottom: 1.5rem;
+}
+
+/* LEFT TEXT */
+.home-header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0f172a;
+  letter-spacing: -0.03em;
+}
+
+.home-header p {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+/* ===== BUTTON ===== */
+.create-task-btn {
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 10px;
+
+  background: green;
+  color: #ffffff;
+
+  font-size: 0.92rem;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.08);
+}
+
+/* hover = subtle, not flashy */
+.create-task-btn:hover {
+  background: rgb(2, 173, 2);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(15, 23, 42, 0.15);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .home-page {
+    padding: 1.2rem;
+  }
+
+  .home-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .create-task-btn {
+    width: 100%;
+  }
+}
+
+
+.empty-state {
+  margin-top: 3rem;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #ffffff;
+  border: 1px dashed #cbd5e1;
+  border-radius: 16px;
+  color: #64748b;
+}
+
+.empty-state h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.empty-state p {
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+}
