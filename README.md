@@ -23,41 +23,46 @@ A full-stack **MERN (MongoDB, Express, React, Node.js)** application designed to
 
 Taskify is a productivity-focused web application that allows users to:
 
-- Create, update, and delete tasks  
-- Organize tasks based on priority  
-- Manage tasks with a responsive UI  
-- Use secure authentication  
+- Create, update, and delete tasks
+- Organize tasks based on priority
+- Manage tasks with a responsive UI
+- Use secure authentication
 
 ---
 
 ## ✨ Features
 
-- User Authentication (Register & Login)  
-- Create, Update, and Delete Tasks  
-- Priority-based Filtering (Low, Medium, High)  
-- Due Date & Category Support  
-- Real-time UI updates (no refresh)  
-- Clean and responsive UI  
+- User Authentication (Register & Login)
+- Create, Update, and Delete Tasks
+- Priority-based Filtering (Low, Medium, High)
+- Due Date & Category Support
+- Real-time UI updates
+- Clean and responsive UI
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js  
-- Axios  
-- CSS  
+
+- React.js
+- Axios
+- CSS
 
 ### Backend
-- Node.js  
-- Express.js  
-- JWT Authentication  
+
+- Node.js
+- Express.js
+- JWT Authentication
 
 ### Database
-- MongoDB (Mongoose)  
 
+- MongoDB
+- Mongoose
+ 
 --- 
 
+## 📂 Project Structure 
 Taskify/
 │
 ├── Client/ # React Frontend
@@ -72,54 +77,44 @@ Taskify/
 
 ### 1. Clone Repository
 
-```bash
+~~~bash
 git clone https://github.com/your-username/taskify.git
 cd taskify
 
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/your-username/taskify.git
-cd taskify 
-
----
-
-📂 Project Structure
-Taskify/
-│
-├── Client/ # React Frontend
-├── Server/ # Node.js Backend
-├── README.md
-└── .gitignore
-
-
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/your-username/taskify.git
-cd taskify
-
-2. Backend Setup
+Backend Setup
 cd Server
 npm install
 
-Create .env file:
-
+Create a .env file inside the Server folder:
 PORT=4000
 MONGO_URL=your_mongodb_uri
 JWT_SECRET_KEY=your_secret_key
 
 Run backend:
-
 npm run dev
-3. Frontend Setup
+
+Frontend Setup
 cd ../Client
 npm install
 npm run dev
 
 
- 
+🧠 Key Learnings
+Full-stack MERN development
+REST API integration
+JWT authentication
+React state management
+Reusable UI components
+📈 Future Improvements
+Search and sorting
+Dark mode
+Notifications
+Task analytics
+Team collaboration
+🧑‍💻 Author
+
+Shivam Raj
+
+⭐ Suppor
+
+## 📂 Project Structure
