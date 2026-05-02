@@ -86,5 +86,43 @@ cd taskify
 
 
 
+---
+
 ## 📂 Project Structure
+Taskify/
+│
+├── Client/ # React Frontend
+├── Server/ # Node.js Backend
+├── README.md
+└── .gitignore
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/your-username/taskify.git
+cd taskify
+
+2. Backend Setup
+cd Server
+npm install
+
+Create .env file:
+
+PORT=4000
+MONGO_URL=your_mongodb_uri
+JWT_SECRET_KEY=your_secret_key
+
+Run backend:
+
+npm run dev
+
+3. Frontend Setup
+cd ../Client
+npm install
+npm run dev
  
