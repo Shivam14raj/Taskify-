@@ -95,5 +95,34 @@ cd ../Client
 npm install
 npm run dev
 
+
+🔌 API Endpoints
+Auth
+Method	Endpoint	Description
+POST	/api/v1/user/register	Register user
+POST	/api/v1/user/login	Login user
+Tasks
+Method	Endpoint	Description
+POST	/api/v1/todo/create	Create task
+POST	/api/v1/todo/getAll/:userId	Get all tasks
+PUT	/api/v1/todo/update/:id	Update task
+DELETE	/api/v1/todo/delete/:id	Delete task
+
+
+🧠 Key Learnings
+MERN stack development
+REST API integration
+JWT authentication
+React state management
+Component-based UI
+📈 Future Improvements
+Search & sorting
+Dark mode
+Notifications
+Task analytics
+Team collaboration
+🧑‍💻 Author
+
+Shivam Raj
 ## 📂 Project Structure
  
